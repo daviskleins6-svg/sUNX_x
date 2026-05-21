@@ -23,10 +23,8 @@ To ensure the environment initializes correctly, please follow these steps:
 4. **Attach:** Click the **Attach** button to bridge the environment. If successful, the status will change to "CONNECTED".
 
 ## 📂 Bundle Contents
-When you download the release, the following files must remain in the same directory:
+When you download the release, the following file must remain in the same directory:
 * `sUNC_x.exe`: The main loader and UI.
-* `sUNC_x.dll`: The core identity handler.
-* `Inject.dll`: Auxiliary threading helper.
 
 ## ⚠️ Known Issues & Troubleshooting
 * **Error 184:** This is a common conflict with the Windows skill-governor. If this occurs, verify your execution permissions and try again.
